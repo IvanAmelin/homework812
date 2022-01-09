@@ -29,6 +29,12 @@ public class Radio {
     }
 
     public void setCurrentRadioNumber(int currentRadioNumber) {
+        if (currentRadioNumber > maxRadioNumber) {
+            return;
+        }
+        if (currentRadioNumber < minRadioNumber) {
+            return;
+        }
         this.currentRadioNumber = currentRadioNumber;
     }
 
