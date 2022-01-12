@@ -35,6 +35,7 @@ class RadioTest {
         radio.increaseVolume();
         assertEquals(expected, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldDownVolume() {
         int expected = 4;
@@ -45,6 +46,7 @@ class RadioTest {
         radio.decreaseVolume();
         assertEquals(expected, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldGoFrom10To10Volume() {
         int expected = 10;
@@ -55,6 +57,7 @@ class RadioTest {
         radio.increaseVolume();
         assertEquals(expected, radio.getCurrentVolume());
     }
+
     @Test
     public void shouldGoFrom0To0Volume() {
         int expected = 0;
@@ -87,6 +90,7 @@ class RadioTest {
         radio.decreaseRadioNumber();
         assertEquals(expected, radio.getCurrentRadioNumber());
     }
+
     @Test
     public void shouldGo9To1RadioNumber() {
         int expected = 1;
@@ -97,6 +101,7 @@ class RadioTest {
         radio.increaseRadioNumber();
         assertEquals(expected, radio.getCurrentRadioNumber());
     }
+
     @Test
     public void shouldGo1To9RadioNumber() {
         int expected = 9;
