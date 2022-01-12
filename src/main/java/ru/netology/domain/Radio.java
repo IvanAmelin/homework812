@@ -61,27 +61,31 @@ public class Radio {
     public void setCurrentVolume(int currentVolume) {
         this.currentVolume = currentVolume;
     }
+
     public int increaseVolume() {
         if (currentVolume < 10) {
             currentVolume = currentVolume + 1;
         }
         return currentVolume;
     }
+
     public int decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
         }
         return currentVolume;
     }
+
     public int increaseRadioNumber() {
         if (currentRadioNumber < 9) {
             currentRadioNumber = currentRadioNumber + 1;
         }
-        if (currentRadioNumber == 9 ) {
+        if (currentRadioNumber == 9) {
             currentRadioNumber = 1;
         }
         return currentRadioNumber;
     }
+
     public int decreaseRadioNumber() {
         if (currentRadioNumber > 1) {
             currentRadioNumber = currentRadioNumber - 1;
