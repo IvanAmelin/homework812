@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="early exit on string 32">
+    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="formatted code1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="ru.netology.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldGo9To1RadioNumber">
+  <component name="RunManager" selected="JUnit.RadioTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework81" />
       <extension name="coverage">
@@ -67,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldGetAndSetVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldGo2To1RadioNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
@@ -77,13 +78,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="shouldGetAndSetVolume" />
+      <option name="METHOD_NAME" value="shouldGo2To1RadioNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldGo9To1RadioNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldGo8To9RadioNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +94,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="shouldGo9To1RadioNumber" />
+      <option name="METHOD_NAME" value="shouldGo8To9RadioNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldGoFrom1To0Volume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="shouldGoFrom1To0Volume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldGoFrom9To10Volume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="shouldGoFrom9To10Volume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,9 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.shouldGo9To1RadioNumber" />
         <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.shouldGetAndSetVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldGo2To1RadioNumber" />
+        <item itemvalue="JUnit.RadioTest.shouldGoFrom1To0Volume" />
+        <item itemvalue="JUnit.RadioTest.shouldGoFrom9To10Volume" />
+        <item itemvalue="JUnit.RadioTest.shouldGo8To9RadioNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641710978251</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="formatted code">
+      <created>1641973252059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641973252059</updated>
+    </task>
+    <task id="LOCAL-00007" summary="formatted code1">
+      <created>1641973412349</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641973412349</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +219,8 @@
     <MESSAGE value="3" />
     <MESSAGE value="34" />
     <MESSAGE value="early exit on string 32" />
-    <option name="LAST_COMMIT_MESSAGE" value="early exit on string 32" />
+    <MESSAGE value="formatted code" />
+    <MESSAGE value="formatted code1" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatted code1" />
   </component>
 </project>

@@ -112,4 +112,26 @@ class RadioTest {
         radio.decreaseRadioNumber();
         assertEquals(expected, radio.getCurrentRadioNumber());
     }
+
+    @Test
+    public void shouldGo8To9RadioNumber() {
+        int expected = 9;
+        Radio radio = new Radio();
+        radio.setMaxRadioNumber(9);
+        radio.setMinRadioNumber(1);
+        radio.setCurrentRadioNumber(8);
+        radio.increaseRadioNumber();
+        assertEquals(expected, radio.getCurrentRadioNumber());
+    }
+
+    @Test
+    public void shouldGo2To1RadioNumber() {
+        int expected = 1;
+        Radio radio = new Radio();
+        radio.setMaxRadioNumber(9);
+        radio.setMinRadioNumber(1);
+        radio.setCurrentRadioNumber(2);
+        radio.decreaseRadioNumber();
+        assertEquals(expected, radio.getCurrentRadioNumber());
+    }
 }

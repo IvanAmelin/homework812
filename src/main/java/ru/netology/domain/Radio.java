@@ -79,6 +79,7 @@ public class Radio {
     public int increaseRadioNumber() {
         if (currentRadioNumber < 9) {
             currentRadioNumber = currentRadioNumber + 1;
+            return currentRadioNumber;
         }
         if (currentRadioNumber == 9) {
             currentRadioNumber = 1;
@@ -89,6 +90,7 @@ public class Radio {
     public int decreaseRadioNumber() {
         if (currentRadioNumber > 1) {
             currentRadioNumber = currentRadioNumber - 1;
+            return currentRadioNumber;
         }
         if (currentRadioNumber == 1) {
             currentRadioNumber = 9;
