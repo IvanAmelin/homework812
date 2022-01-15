@@ -81,7 +81,7 @@ public class Radio {
             currentRadioNumber = currentRadioNumber + 1;
             return currentRadioNumber;
         }
-        if (currentRadioNumber == 9) {
+        if (currentRadioNumber >= 9) {
             currentRadioNumber = 1;
         }
         return currentRadioNumber;
@@ -92,7 +92,7 @@ public class Radio {
             currentRadioNumber = currentRadioNumber - 1;
             return currentRadioNumber;
         }
-        if (currentRadioNumber == 1) {
+        if (currentRadioNumber <= 1) {
             currentRadioNumber = 9;
         }
         return currentRadioNumber;

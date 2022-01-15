@@ -123,8 +123,9 @@ class RadioTest {
         radio.increaseRadioNumber();
         assertEquals(expected, radio.getCurrentRadioNumber());
     }
+
     @Test
-    public void Should0IfcurrentRadioNumberMoremaxRadioNumber() {
+    public void should0IfCurrentRadioNumberMoreMaxRadioNumber() {
         int expected = 0;
         Radio radio = new Radio();
         radio.setMaxRadioNumber(9);
@@ -132,8 +133,19 @@ class RadioTest {
         radio.setCurrentRadioNumber(100);
         assertEquals(expected, radio.getCurrentRadioNumber());
     }
+
     @Test
-    public void Should0IfcurrentRadioNumberLessminRadioNumber() {
+    public void should0IfCurrentRadioNumberLessMinRadioNumber() {
+        int expected = 0;
+        Radio radio = new Radio();
+        radio.setMaxRadioNumber(9);
+        radio.setMinRadioNumber(1);
+        radio.setCurrentRadioNumber(-100);
+        assertEquals(expected, radio.getCurrentRadioNumber());
+    }
+
+    @Test
+    public void shouldGetMaxVolume() {
         int expected = 0;
         Radio radio = new Radio();
         radio.setMaxRadioNumber(9);
