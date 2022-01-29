@@ -9,6 +9,8 @@ public class Radio {
     private int minVolume = 0;
     private int currentVolume = 50;
 
+    public Radio() {
+    }
     public Radio(int radioNumbers,
                  int maxRadioNumber,
                  int minRadioNumber,

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/constructor/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +64,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="PACKAGE_NAME" value="ru.netology.domain.constructor" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.constructor.RadioTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,6 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RadioTest" />
+      <item itemvalue="JUnit.RadioTest.shouldGo2To1RadioNumber" />
+      <item itemvalue="JUnit.RadioTest.shouldGo8To9RadioNumber" />
+      <item itemvalue="JUnit.RadioTest.shouldGoFrom1To0Volume" />
+      <item itemvalue="JUnit.RadioTest.shouldGoFrom9To10Volume" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RadioTest" />
@@ -241,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642282849768</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new task 1.0">
+      <created>1643486851132</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643486851132</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

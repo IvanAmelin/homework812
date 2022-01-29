@@ -8,7 +8,7 @@ class RadioTest {
     @Test
     public void shouldUseConstructor() {
         Radio radio = new Radio(10, 9, 0, 5, 100, 0, 50 );
-        assertEquals(50, radio.getCurrentRadioNumber());
+        assertEquals(5, radio.getCurrentRadioNumber());
     }
 
     @Test
