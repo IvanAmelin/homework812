@@ -25,10 +25,24 @@ class RadioTest {
     }
 
     @Test
+    public void shouldRadioChangeFrom5To6() {
+        Radio radio = new Radio(10, 9, 0, 5, 100, 0, 50);
+        radio.increaseRadioNumber();
+        assertEquals(6, radio.getCurrentRadioNumber());
+    }
+
+    @Test
     public void shouldRadioChangeFrom0ToMax() {
         Radio radio = new Radio(10, 9, 0, 0, 100, 0, 50);
         radio.decreaseRadioNumber();
         assertEquals(9, radio.getCurrentRadioNumber());
+    }
+
+    @Test
+    public void shouldRadioChangeFrom5To4() {
+        Radio radio = new Radio(10, 9, 0, 5, 100, 0, 50);
+        radio.decreaseRadioNumber();
+        assertEquals(4, radio.getCurrentRadioNumber());
     }
 
     @Test
@@ -39,9 +53,23 @@ class RadioTest {
     }
 
     @Test
+    public void shouldVolumeChangeFrom50To49() {
+        Radio radio = new Radio(10, 9, 0, 0, 100, 0, 50);
+        radio.decreaseVolume();
+        assertEquals(49, radio.getCurrentVolume());
+    }
+
+    @Test
     public void shouldVolumeChangeFrom100To100() {
         Radio radio = new Radio(10, 9, 0, 0, 100, 0, 100);
         radio.increaseVolume();
         assertEquals(100, radio.getCurrentVolume());
+    }
+
+    @Test
+    public void shouldVolumeChangeFrom50To51() {
+        Radio radio = new Radio(10, 9, 0, 0, 100, 0, 50);
+        radio.increaseVolume();
+        assertEquals(51, radio.getCurrentVolume());
     }
 }
