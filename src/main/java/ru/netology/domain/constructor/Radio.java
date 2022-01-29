@@ -1,19 +1,44 @@
-package ru.netology.domain;
+package ru.netology.domain.constructor;
 
 public class Radio {
-    private int maxRadioNumber;
-    private int minRadioNumber;
+    private int radioNumbers = 10;
+    private int maxRadioNumber = radioNumbers - 1;
+    private int minRadioNumber = 0;
     private int currentRadioNumber;
-    private int maxVolume;
-    private int minVolume;
-    private int currentVolume;
+    private int maxVolume = 100;
+    private int minVolume = 0;
+    private int currentVolume = 50;
+
+    public Radio(int radioNumbers,
+                 int maxRadioNumber,
+                 int minRadioNumber,
+                 int currentRadioNumber,
+                 int maxVolume,
+                 int minVolume,
+                 int currentVolume) {
+        this.radioNumbers = radioNumbers;
+        this.maxRadioNumber = maxRadioNumber;
+        this.minRadioNumber = minRadioNumber;
+        this.currentRadioNumber = currentRadioNumber;
+        this.maxVolume = maxVolume;
+        this.minVolume = minVolume;
+        this.currentVolume = currentVolume;
+    }
+
+    public int getRadioNumbers() {
+        return radioNumbers;
+    }
+
+    public void setRadioNumbers(int radioNumbers) {
+        radioNumbers = radioNumbers;
+    }
 
     public int getMaxRadioNumber() {
         return maxRadioNumber;
     }
 
     public void setMaxRadioNumber(int maxRadioNumber) {
-        this.maxRadioNumber = maxRadioNumber;
+        maxRadioNumber = maxRadioNumber;
     }
 
     public int getMinRadioNumber() {
@@ -29,12 +54,6 @@ public class Radio {
     }
 
     public void setCurrentRadioNumber(int currentRadioNumber) {
-        if (currentRadioNumber > maxRadioNumber) {
-            return;
-        }
-        if (currentRadioNumber < minRadioNumber) {
-            return;
-        }
         this.currentRadioNumber = currentRadioNumber;
     }
 
@@ -58,22 +77,16 @@ public class Radio {
         return currentVolume;
     }
 
-    public void setCurrentVolume(int currentVolume) {
-        this.currentVolume = currentVolume;
-    }
-
     public void increaseVolume() {
         if (currentVolume < 10) {
             currentVolume = currentVolume + 1;
         }
     }
-
     public void decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
         }
     }
-
     public int increaseRadioNumber() {
         if (currentRadioNumber < 9) {
             currentRadioNumber = currentRadioNumber + 1;
@@ -97,3 +110,5 @@ public class Radio {
         return currentRadioNumber;
     }
 }
+
+

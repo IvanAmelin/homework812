@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="100% brunch v1.1">
+    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/constructor/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,7 @@
       <recent name="C:\Users\777\IdeaProjects\homework81" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology.domain.constructor" />
       <recent name="ru.netology.domain" />
     </key>
   </component>
@@ -59,7 +63,7 @@
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="PATTERN" value="ru.netology.domain.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,7 +78,7 @@
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="PATTERN" value="ru.netology.domain.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,7 +94,7 @@
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="PATTERN" value="ru.netology.domain.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +110,7 @@
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="PATTERN" value="ru.netology.domain.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +126,7 @@
       <module name="homework81" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="PATTERN" value="ru.netology.domain.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642281914036</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="100% brunch v1.2">
+      <created>1642282849768</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642282849768</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +265,8 @@
     <MESSAGE value="formatted code with true tests and true returns" />
     <MESSAGE value="100% brunch" />
     <MESSAGE value="100% brunch v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="100% brunch v1.1" />
+    <MESSAGE value="100% brunch v1.2" />
+    <MESSAGE value="new task 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="new task 1.0" />
   </component>
 </project>
