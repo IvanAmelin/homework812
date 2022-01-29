@@ -95,7 +95,7 @@ public class Radio {
             return currentRadioNumber;
         }
         else {
-            currentRadioNumber = 1;
+            currentRadioNumber = 0;
 
         }
         return currentRadioNumber;
