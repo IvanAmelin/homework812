@@ -11,6 +11,7 @@ public class Radio {
 
     public Radio() {
     }
+
     public Radio(int radioNumbers,
                  int maxRadioNumber,
                  int minRadioNumber,
@@ -84,17 +85,18 @@ public class Radio {
             currentVolume = currentVolume + 1;
         }
     }
+
     public void decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
         }
     }
+
     public int increaseRadioNumber() {
         if (currentRadioNumber < 9) {
             currentRadioNumber = currentRadioNumber + 1;
             return currentRadioNumber;
-        }
-        else {
+        } else {
             currentRadioNumber = 0;
 
         }
@@ -105,8 +107,7 @@ public class Radio {
         if (currentRadioNumber > 1) {
             currentRadioNumber = currentRadioNumber - 1;
             return currentRadioNumber;
-        }
-        else {
+        } else {
             currentRadioNumber = 9;
         }
         return currentRadioNumber;

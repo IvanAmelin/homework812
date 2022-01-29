@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/constructor/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/constructor/RadioTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643488983021</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new task 1.4">
+      <created>1643493770267</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643493770267</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +307,7 @@
     <MESSAGE value="new task 1.1" />
     <MESSAGE value="new task 1.2" />
     <MESSAGE value="new task 1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="new task 1.3" />
+    <MESSAGE value="new task 1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="new task 1.4" />
   </component>
 </project>
