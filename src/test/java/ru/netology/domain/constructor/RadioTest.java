@@ -16,4 +16,10 @@ class RadioTest {
         Radio radio = new Radio();
         assertEquals(50, radio.getCurrentVolume());
     }
+    @Test
+    public void shouldRadioChangeFrom9To1() {
+        Radio radio = new Radio(10, 9, 0, 9, 100, 0, 50 );
+        radio.increaseRadioNumber();
+        assertEquals(1, radio.getCurrentRadioNumber());
+    }
 }

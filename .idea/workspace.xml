@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.1" />
+    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.2">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/constructor/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/constructor/RadioTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643487841239</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new task 1.2">
+      <created>1643488204464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1643488204464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +293,7 @@
     <MESSAGE value="100% brunch v1.2" />
     <MESSAGE value="new task 1.0" />
     <MESSAGE value="new task 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="new task 1.1" />
+    <MESSAGE value="new task 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new task 1.2" />
   </component>
 </project>
