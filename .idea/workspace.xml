@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/constructor/Radio.java" afterDir="false" />
-    </list>
+    <list default="true" id="40c0c91a-69e7-4d8d-b1d4-d868dead866f" name="Changes" comment="new task 1.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643486851132</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new task 1.1">
+      <created>1643487841239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643487841239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +283,7 @@
     <MESSAGE value="100% brunch v1.1" />
     <MESSAGE value="100% brunch v1.2" />
     <MESSAGE value="new task 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="new task 1.0" />
+    <MESSAGE value="new task 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="new task 1.1" />
   </component>
 </project>
